@@ -20,11 +20,18 @@ nuevo = {
 
 aeropuertos.append(nuevo)
 
+#TUPLAS
+print("TUPLAS")
+print( aeropuertos[0]["coord"])
+print( aeropuertos[1]["coord"])
+print( aeropuertos[2]["coord"])
+
 
 #lista actualizada
+print("LISTA ACTUALIZADA")
 for aeropuerto in aeropuertos:
     print(aeropuerto)
-    
+
 
 # Set de códigos OACI
 print("Sets")
